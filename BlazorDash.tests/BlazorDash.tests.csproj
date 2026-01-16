@@ -27,7 +27,7 @@
 		<PackageReference Include="xunit.runner.visualstudio" Version="3.0.0">
 			<PrivateAssets>all</PrivateAssets>
 			<IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
-			</PackageReference>
+		</PackageReference>
 	</ItemGroup>
 
 	<ItemGroup>
