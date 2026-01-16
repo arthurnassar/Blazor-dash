@@ -1,0 +1,9 @@
+{
+  "version": "1",
+  "name": "Blazor dash",
+  "type": "collection",
+  "ignore": [
+    "node_modules",
+    ".git"
+  ]
+}
