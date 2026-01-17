@@ -1,4 +1,5 @@
-using BlazorDash.Pages;
+using BlazorDash.Features.Counter.Pages;
+using FluentAssertions;
 
 namespace BlazorDash.tests;
 
@@ -15,7 +16,7 @@ public class CounterTests : BunitContext
         var cut = Render<Counter>();
 
         // Assert that content of the paragraph shows counter at zero
-        cut.Find("p").MarkupMatches("<p role=\"status\">Current count: 0</p>");
+        cut.Find("p").OuterHtml.Should().Be("<p role=\"status\">Current count: 0</p>");
     }
 
     [Fact]
