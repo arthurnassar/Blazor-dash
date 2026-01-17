@@ -11,24 +11,4 @@
         <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="9.0.0" PrivateAssets="all"/>
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Components\DataDisplay\" />
-      <Folder Include="Components\Feedback\" />
-      <Folder Include="Components\UI\" />
-      <Folder Include="Services\" />
-      <Folder Include="Shared\" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <AdditionalFiles Include="Layout\MainLayout.razor" />
-      <AdditionalFiles Include="Layout\NavMenu.razor" />
-      <AdditionalFiles Include="Pages\Home.razor" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <_ContentIncludedByDefault Remove="App\Layout\MainLayout.razor" />
-      <_ContentIncludedByDefault Remove="App\Layout\NavMenu.razor" />
-      <_ContentIncludedByDefault Remove="App\Pages\Home.razor" />
-    </ItemGroup>
-
 </Project>
